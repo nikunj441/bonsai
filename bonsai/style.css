@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-button:hover{
+    cursor: pointer;
+    color: #2bc405;
+}
+.navbar-header{
+    display: flex;
+    justify-content: inherit;
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+    padding: 0.5rem 1rem;
+    width:100vw;
+    margin-left: 6rem;
+    margin-right: 1rem;
+}
+
+.navbar-head-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-left-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.navbar-right-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+.logo{
+    margin: 0em 2em 0em 0em;
+}
+
+
+/* payment-plan */
+.payment-plan{
+    margin-top: 30px;
+}
+.green-btn{
+    padding: 10px 20px 12px;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #22ad01;
+    border-style: none;
+    border-radius: 36px;
+    font-weight: 500;
+    display: inline-block;
+    transition: background-color .3s;
+
+}
+
+.green-btn:hover{
+    background-color: #2bc405;
+    cursor: pointer;
+    color: white;
+}
+
+.white-btn{
+    padding: 10px 20px 12px;
+    line-height: 100%;
+    color: black;
+    text-align: center;
+    border-style: none;
+    border-radius: 36px;
+    font-weight: 500;
+    line-height: 140%;
+    transition: background-color .3s;
+}
+
+.white-btn:hover{
+    color: black;
+    background-color: rgb(237, 250, 235);
+}
+
+.below-nav{
+    width: 30%;
+    margin-top: 0.5rem;
+    margin-left: 5.2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.below-nav-link{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.616);
+
+}
+
+.below-nav-link:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(0, 100, 0, 0.733);
+
+}
+
+.second-container{
+    margin-top: 106px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+.second-heading{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.second-heading p{
+    font-size: 60px;
+    font-weight:700;
+    color:#003c2f;
+    line-height: 60px;
+}
+.payment-plan{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.btn-monthly{
+    background-color: #003c2f;
+    color: white;
+    padding: 10px 20px 12px;
+    text-align: center;
+    border-style: none;
+    border-radius: 36px;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+.btn-yearly{
+    padding: 10px 20px 12px;
+    text-align: center;
+    border-style: none;
+    border-radius: 36px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+span{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(110, 180, 5);
+    background-color: white;
+}
+
+
+/* Payment-card */
+
+.third-container{
+    margin-top: 5rem;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    font-size: 16px;
+}
+.payment-card{
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.card-heading{
+    margin-top: 40px;
+    padding: 10px;
+}
+.payment-card-btn{
+    padding: 10px 20px 12px;
+    line-height: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #22ad01;
+    border-style: none;
+    border-radius: 36px;
+    font-weight: 500;
+    display: inline-block;
+    transition: background-color .3s;
+}
+
+.payment-card-btn:hover{
+    background-color:#2bc405;
+    color: white;
+}
+
+.bg-card{
+    background-color: coral;
+}
+
+.header-bold{
+    font-size: 30px;
+    font-weight:700;
+    color:#003c2f;
+    /* line-height: 60px; */
+}
+
+.header-light{
+    font-size: 1rem;
+    margin-left: 0.4rem;
+    color: #b0c5b5;
+}
+
+.signup-top{
+    margin-top: 1rem;
+}
+
+ol{
+    text-align: left;
+}
+ol li{
+    list-style:url(https://assets-global.website-files.com/635ac9564cc3682ce1536786/637637410d31673cc7050386_green%20check.svg);
+    line-height: 3rem;
+}
